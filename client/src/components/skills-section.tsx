@@ -1,30 +1,30 @@
 export default function SkillsSection() {
   const skillCategories = [
     {
-      title: "Your Skill Category 1",
+      title: "Programming & Development",
       icon: "fas fa-code",
       skills: [
-        { name: "Your Skill 1", level: 90 },
-        { name: "Your Skill 2", level: 85 },
-        { name: "Your Skill 3", level: 95 }
+        { name: "C++", level: 85 },
+        { name: "Python", level: 80 },
+        { name: "Web Development", level: 75 }
       ]
     },
     {
-      title: "Your Skill Category 2",
-      icon: "fas fa-server",
+      title: "Embedded & Systems",
+      icon: "fas fa-microchip",
       skills: [
-        { name: "Your Skill 4", level: 80 },
-        { name: "Your Skill 5", level: 90 },
-        { name: "Your Skill 6", level: 85 }
+        { name: "STM32 Microcontrollers", level: 80 },
+        { name: "Embedded Systems", level: 85 },
+        { name: "Computer Architecture", level: 75 }
       ]
     },
     {
-      title: "Your Skill Category 3",
-      icon: "fas fa-paint-brush",
+      title: "Cloud & AI",
+      icon: "fas fa-cloud",
       skills: [
-        { name: "Your Skill 7", level: 85 },
-        { name: "Your Skill 8", level: 90 },
-        { name: "Your Skill 9", level: 95 }
+        { name: "AWS Cloud Services", level: 70 },
+        { name: "Machine Learning", level: 65 },
+        { name: "AWS DeepRacer", level: 75 }
       ]
     }
   ];

@@ -9,8 +9,8 @@ export default function HeroSection() {
   const downloadCV = () => {
     // Create a link to download CV
     const link = document.createElement('a');
-    link.href = '/api/download-cv';
-    link.download = 'Jana_Kamel_CV.pdf';
+    link.href = '/Jana_Kamel_CV.txt';
+    link.download = 'Jana_Kamel_CV.txt';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -52,7 +52,7 @@ export default function HeroSection() {
           
           <div className="flex-shrink-0">
             <img
-              src="https://images.unsplash.com/photo-1494790108755-2616b612b742?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=400"
+              src="/jana-photo.jpg"
               alt="Jana Kamel professional photo"
               className="w-64 h-64 lg:w-80 lg:h-80 rounded-full object-cover shadow-2xl border-4 border-white"
             />

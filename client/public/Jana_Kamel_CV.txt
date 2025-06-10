@@ -1,0 +1,81 @@
+JANA KAMEL
+Computer Engineering Student | TU Berlin
+
+Contact Information:
+Email: Jana-ahmed567@hotmail.com
+Phone: +4915560713880
+Location: Berlin, Germany
+
+ABOUT
+First in my family to study abroad, I moved from Egypt to Berlin to pursue Computer Engineering at TU Berlin. Passionate about technology, personal growth, and pushing boundaries in embedded systems and cloud computing. I believe in chasing growth, embracing challenges, and building meaningful connections through technology.
+
+EDUCATION
+Computer Engineering - TU Berlin (Current)
+• Focus on software development, embedded systems, and computer architecture
+• Active participation in university projects including rocket development and processor design
+• Hands-on experience with STM32 microcontrollers and real-time systems
+
+Egyptian Math Olympiad - Honorable Mention (2020)
+• Recognition for analytical thinking and problem-solving skills
+• Foundation for my love of challenging technical problems
+
+TECHNICAL PROJECTS
+
+UniVerse - Web Application for International Students
+• Full-stack web application connecting international students in Berlin
+• Built with React and Node.js, featuring user authentication and database integration
+• Addresses real community needs for international students
+
+BEARS Rocket Project - STM32 Embedded Development
+• Embedded systems programming for rocket flight computer using C++
+• Real-time system design and implementation
+• Collaboration with university rocket team on critical flight systems
+
+Python Guessing Game - Early Learning Project
+• Simple logic game built to understand input/output operations
+• Foundation project that sparked my programming journey
+
+TECHNICAL SKILLS
+
+Programming Languages:
+• C++ (Advanced) - Embedded systems and system programming
+• Python (Intermediate) - Scripting and automation
+• Web Development (Intermediate) - Full-stack applications
+
+Embedded Systems:
+• STM32 Microcontrollers (Advanced)
+• Real-time system design
+• Computer architecture and processor design
+
+Cloud & AI:
+• AWS Cloud Services (Intermediate)
+• Machine Learning fundamentals
+• AWS DeepRacer racing and optimization
+
+CERTIFICATIONS & ACTIVITIES
+
+AWS DeepRacer Student Member (Current)
+• Active participant in machine learning racing competitions
+• Experience with reinforcement learning and model optimization
+• Cloud computing and AI system design
+
+AWS Summit Hamburg (June 2025)
+• Attended industry talks and networking sessions
+• Engaged with cloud computing professionals and thought leaders
+• Gained insights into enterprise cloud architecture
+
+AWS GameDay Workshop - TU Berlin
+• Team-based cloud problem-solving challenges
+• Collaborative system design under pressure
+• Practical application of AWS services and best practices
+
+ACHIEVEMENTS
+• First in family to study abroad - pioneering international education
+• Egyptian Math Olympiad recognition - analytical excellence
+• Active contributor to university engineering projects
+• AWS community engagement and continuous learning
+
+PERSONAL STATEMENT
+Moving from Egypt to Berlin represents more than just a geographical change - it's about believing in possibilities and chasing growth. As a Computer Engineering student, I combine technical expertise with a passion for solving real-world problems. Whether it's building web applications for international students, programming embedded systems for rockets, or exploring machine learning through AWS DeepRacer, I approach each challenge with curiosity and determination.
+
+My journey from math competitions in Egypt to embedded systems development in Berlin has taught me that technical skills are just the beginning. True engineering excellence comes from understanding user needs, embracing collaboration, and never stopping the pursuit of knowledge.
