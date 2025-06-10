@@ -10,7 +10,7 @@ export default function HeroSection() {
     // Create a link to download CV
     const link = document.createElement('a');
     link.href = '/api/download-cv';
-    link.download = 'John_Smith_CV.pdf';
+    link.download = 'Your_Name_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -22,15 +22,15 @@ export default function HeroSection() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl lg:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-              Hi, I'm <span className="text-portfolio-primary">John</span>
+              Hi, I'm <span className="text-portfolio-primary">Your Name</span>
               <br />
               <span className="text-portfolio-secondary text-2xl lg:text-4xl font-medium">
-                Software Developer & Designer
+                Your Professional Title
               </span>
             </h1>
             <p className="text-lg text-portfolio-secondary mb-8 max-w-2xl">
-              Passionate about creating exceptional digital experiences through clean code and thoughtful design. 
-              I specialize in full-stack development and user interface design.
+              Write a brief description about yourself and your professional focus. This could include your 
+              passion, specialization, and what makes you unique in your field.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button

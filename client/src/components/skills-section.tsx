@@ -1,30 +1,30 @@
 export default function SkillsSection() {
   const skillCategories = [
     {
-      title: "Frontend Development",
+      title: "Your Skill Category 1",
       icon: "fas fa-code",
       skills: [
-        { name: "React/Next.js", level: 95 },
-        { name: "Vue.js", level: 85 },
-        { name: "TypeScript", level: 90 }
+        { name: "Your Skill 1", level: 90 },
+        { name: "Your Skill 2", level: 85 },
+        { name: "Your Skill 3", level: 95 }
       ]
     },
     {
-      title: "Backend Development",
+      title: "Your Skill Category 2",
       icon: "fas fa-server",
       skills: [
-        { name: "Node.js", level: 90 },
-        { name: "Python", level: 80 },
-        { name: "PostgreSQL", level: 85 }
+        { name: "Your Skill 4", level: 80 },
+        { name: "Your Skill 5", level: 90 },
+        { name: "Your Skill 6", level: 85 }
       ]
     },
     {
-      title: "Design & Tools",
+      title: "Your Skill Category 3",
       icon: "fas fa-paint-brush",
       skills: [
-        { name: "UI/UX Design", level: 85 },
-        { name: "Figma", level: 90 },
-        { name: "Git/GitHub", level: 95 }
+        { name: "Your Skill 7", level: 85 },
+        { name: "Your Skill 8", level: 90 },
+        { name: "Your Skill 9", level: 95 }
       ]
     }
   ];

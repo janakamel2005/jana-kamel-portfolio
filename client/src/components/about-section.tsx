@@ -1,7 +1,7 @@
 export default function AboutSection() {
-  const openLinkedIn = () => window.open("https://linkedin.com", "_blank");
-  const openGitHub = () => window.open("https://github.com", "_blank");
-  const openTwitter = () => window.open("https://twitter.com", "_blank");
+  const openLinkedIn = () => window.open("https://linkedin.com/in/your-profile", "_blank");
+  const openGitHub = () => window.open("https://github.com/your-username", "_blank");
+  const openTwitter = () => window.open("https://twitter.com/your-handle", "_blank");
 
   return (
     <section id="about" className="py-20 bg-white">
@@ -17,18 +17,16 @@ export default function AboutSection() {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-slate-900 mb-4">My Story</h3>
             <p className="text-portfolio-secondary leading-relaxed">
-              I started my journey in technology over 5 years ago when I discovered my passion for creating 
-              digital solutions that make a real impact. What began as curiosity about how websites work has 
-              evolved into a comprehensive skill set spanning full-stack development and user experience design.
+              Write your professional journey here. How did you get started in your field? What sparked your 
+              interest and passion? This is where you tell your unique story.
             </p>
             <p className="text-portfolio-secondary leading-relaxed">
-              Today, I specialize in building scalable web applications using modern technologies like React, 
-              Node.js, and cloud platforms. I believe in the power of combining technical expertise with design 
-              thinking to create products that are not only functional but also delightful to use.
+              Describe your current expertise and what you specialize in. What technologies do you work with? 
+              What's your approach to work and what makes you unique?
             </p>
             <p className="text-portfolio-secondary leading-relaxed">
-              When I'm not coding, you'll find me exploring new design trends, contributing to open-source 
-              projects, or sharing knowledge with the developer community through blogs and speaking engagements.
+              Share what you do outside of work, your interests, and how you stay current in your field. 
+              This helps visitors connect with you on a personal level.
             </p>
           </div>
           
@@ -36,15 +34,15 @@ export default function AboutSection() {
             <div className="bg-slate-50 p-6 rounded-xl">
               <h4 className="font-semibold text-slate-900 mb-3 flex items-center">
                 <i className="fas fa-map-marker-alt text-portfolio-primary mr-2"></i>
-                San Francisco, CA
+                Your City, Country
               </h4>
               <h4 className="font-semibold text-slate-900 mb-3 flex items-center">
                 <i className="fas fa-envelope text-portfolio-primary mr-2"></i>
-                john.smith@email.com
+                your.email@example.com
               </h4>
               <h4 className="font-semibold text-slate-900 mb-3 flex items-center">
                 <i className="fas fa-phone text-portfolio-primary mr-2"></i>
-                +1 (555) 123-4567
+                Your Phone Number
               </h4>
             </div>
             

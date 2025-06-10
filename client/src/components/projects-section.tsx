@@ -2,30 +2,30 @@ export default function ProjectsSection() {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and inventory management.",
+      title: "Your Project Title 1",
+      description: "Describe your first project here. What problem did it solve? What technologies did you use? What were the key features and achievements?",
       image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      technologies: ["React", "Node.js", "PostgreSQL"],
-      demoUrl: "#",
-      codeUrl: "#"
+      technologies: ["Technology 1", "Technology 2", "Technology 3"],
+      demoUrl: "https://your-project-demo.com",
+      codeUrl: "https://github.com/your-username/project-1"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management tool with real-time updates, team collaboration features, and advanced project analytics.",
+      title: "Your Project Title 2",
+      description: "Describe your second project here. Focus on the challenges you overcame and the impact it had.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      technologies: ["Vue.js", "Firebase", "Socket.io"],
-      demoUrl: "#",
-      codeUrl: "#"
+      technologies: ["Technology A", "Technology B", "Technology C"],
+      demoUrl: "https://your-project-demo2.com",
+      codeUrl: "https://github.com/your-username/project-2"
     },
     {
       id: 3,
-      title: "Analytics Dashboard",
-      description: "A comprehensive analytics dashboard for tracking business metrics with interactive charts and real-time data visualization.",
+      title: "Your Project Title 3",
+      description: "Describe your third project here. Highlight what makes this project unique and showcase your skills.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      technologies: ["React", "D3.js", "Python"],
-      demoUrl: "#",
-      codeUrl: "#"
+      technologies: ["Tech X", "Tech Y", "Tech Z"],
+      demoUrl: "https://your-project-demo3.com",
+      codeUrl: "https://github.com/your-username/project-3"
     }
   ];
 

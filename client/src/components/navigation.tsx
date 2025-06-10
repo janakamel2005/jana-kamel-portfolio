@@ -53,7 +53,7 @@ export default function Navigation() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <span className="text-xl font-bold text-portfolio-primary">John Smith</span>
+            <span className="text-xl font-bold text-portfolio-primary">Your Name</span>
           </div>
           
           {/* Desktop Navigation */}
