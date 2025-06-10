@@ -1,23 +1,23 @@
 export default function EducationSection() {
   const education = [
     {
-      degree: "Master of Science in Computer Science",
-      institution: "Stanford University",
-      period: "2019 - 2021",
-      description: "Specialized in Machine Learning and Web Technologies. Thesis on \"Optimizing User Experience in Web Applications through AI-driven Personalization.\"",
+      degree: "Your Degree Title",
+      institution: "Your University/School",
+      period: "Start Year - End Year",
+      description: "Add details about your degree, specialization, achievements, or relevant coursework.",
       type: "education"
     },
     {
-      degree: "Bachelor of Science in Software Engineering",
-      institution: "UC Berkeley",
-      period: "2015 - 2019",
-      description: "Graduated Magna Cum Laude. Focus on full-stack development and software architecture. Active member of the Computer Science Club.",
+      degree: "Another Degree (if applicable)",
+      institution: "Institution Name",
+      period: "Start Year - End Year",
+      description: "Describe your academic achievements, honors, or relevant projects.",
       type: "education"
     },
     {
-      degree: "AWS Certified Solutions Architect",
-      institution: "Amazon Web Services",
-      period: "2022",
+      degree: "Your Certification",
+      institution: "Certifying Organization",
+      period: "Year Obtained",
       description: "",
       type: "certification"
     }
@@ -25,22 +25,22 @@ export default function EducationSection() {
 
   const events = [
     {
-      name: "React Conf 2023",
-      role: "Speaker",
-      date: "October 2023",
-      description: "Presented \"Building Scalable React Applications\" to 500+ developers. Discussed best practices for component architecture and state management."
+      name: "Your Conference/Event 1",
+      role: "Your Role (Speaker, Attendee, etc.)",
+      date: "Month Year",
+      description: "Describe what you did at this event, what you presented, or what you learned."
     },
     {
-      name: "TechCrunch Disrupt 2023",
-      role: "Attendee",
-      date: "September 2023",
-      description: "Networked with industry leaders and explored emerging technologies in AI and blockchain development."
+      name: "Your Conference/Event 2", 
+      role: "Your Role",
+      date: "Month Year",
+      description: "Share details about your participation and any notable achievements or connections."
     },
     {
-      name: "Google I/O 2023",
-      role: "Workshop Leader",
-      date: "May 2023",
-      description: "Led hands-on workshop on \"Progressive Web Apps with Modern JavaScript\" for 100+ participants."
+      name: "Your Conference/Event 3",
+      role: "Your Role",
+      date: "Month Year",
+      description: "Highlight your contributions or key takeaways from this professional event."
     }
   ];
 

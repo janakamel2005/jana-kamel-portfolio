@@ -1,20 +1,20 @@
 export default function ContactSection() {
   const sendEmail = () => {
-    window.location.href = "mailto:john.smith@email.com";
+    window.location.href = "mailto:your.email@example.com";
   };
 
   const downloadCV = () => {
     const link = document.createElement('a');
     link.href = '/api/download-cv';
-    link.download = 'John_Smith_CV.pdf';
+    link.download = 'Your_Name_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
 
-  const openLinkedIn = () => window.open("https://linkedin.com", "_blank");
-  const openGitHub = () => window.open("https://github.com", "_blank");
-  const openTwitter = () => window.open("https://twitter.com", "_blank");
+  const openLinkedIn = () => window.open("https://linkedin.com/in/your-profile", "_blank");
+  const openGitHub = () => window.open("https://github.com/your-username", "_blank");
+  const openTwitter = () => window.open("https://twitter.com/your-handle", "_blank");
 
   return (
     <section id="contact" className="py-20 bg-portfolio-primary text-white">
