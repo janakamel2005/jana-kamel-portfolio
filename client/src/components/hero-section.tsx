@@ -10,7 +10,7 @@ export default function HeroSection() {
     // Create a link to download CV
     const link = document.createElement('a');
     link.href = '/api/download-cv';
-    link.download = 'Your_Name_CV.pdf';
+    link.download = 'Jana_Kamel_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -22,15 +22,15 @@ export default function HeroSection() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl lg:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-              Hi, I'm <span className="text-portfolio-primary">Your Name</span>
+              Hi, I'm <span className="text-portfolio-primary">Jana</span>
               <br />
               <span className="text-portfolio-secondary text-2xl lg:text-4xl font-medium">
-                Your Professional Title
+                Computer Engineering Student
               </span>
             </h1>
             <p className="text-lg text-portfolio-secondary mb-8 max-w-2xl">
-              Write a brief description about yourself and your professional focus. This could include your 
-              passion, specialization, and what makes you unique in your field.
+              Computer Engineering student at TU Berlin passionate about technology and personal growth. 
+              Always challenging myself to learn, build, and make an impact through innovation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button
@@ -52,8 +52,8 @@ export default function HeroSection() {
           
           <div className="flex-shrink-0">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
-              alt="Professional headshot"
+              src="/src/assets/jana-photo.jpg"
+              alt="Jana Kamel professional photo"
               className="w-64 h-64 lg:w-80 lg:h-80 rounded-full object-cover shadow-2xl border-4 border-white"
             />
           </div>
