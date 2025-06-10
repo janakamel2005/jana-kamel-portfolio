@@ -81,20 +81,7 @@ export default function ProjectsSection() {
                     </span>
                   ))}
                 </div>
-                <div className="flex space-x-4">
-                  <button
-                    onClick={() => viewProject(project.demoUrl)}
-                    className="text-portfolio-primary hover:text-blue-600 font-medium"
-                  >
-                    <i className="fas fa-external-link-alt mr-1"></i>Live Demo
-                  </button>
-                  <button
-                    onClick={() => viewCode(project.codeUrl)}
-                    className="text-portfolio-secondary hover:text-slate-900 font-medium"
-                  >
-                    <i className="fab fa-github mr-1"></i>View Code
-                  </button>
-                </div>
+
               </div>
             </div>
           ))}

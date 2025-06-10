@@ -5,16 +5,15 @@ export default function ContactSection() {
 
   const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/api/download-cv';
-    link.download = 'Jana_Kamel_CV.pdf';
+    link.href = '/Jana_Kamel_CV.txt';
+    link.download = 'Jana_Kamel_CV.txt';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
 
-  const openLinkedIn = () => window.open("https://linkedin.com/in/jana-kamel", "_blank");
-  const openGitHub = () => window.open("https://github.com/jana-kamel", "_blank");
-  const openTwitter = () => window.open("https://twitter.com/jana_kamel", "_blank");
+  const openLinkedIn = () => window.open("https://www.linkedin.com/in/jana-kamel-3030a2271/", "_blank");
+  const openGitHub = () => window.open("https://github.com/Janakamel2005", "_blank");
 
   return (
     <section id="contact" className="py-20 bg-portfolio-primary text-white">
@@ -55,12 +54,7 @@ export default function ContactSection() {
           >
             <i className="fab fa-github text-2xl"></i>
           </button>
-          <button
-            onClick={openTwitter}
-            className="text-white hover:text-blue-200 transition-colors duration-200"
-          >
-            <i className="fab fa-twitter text-2xl"></i>
-          </button>
+
         </div>
       </div>
     </section>
