@@ -1,46 +1,46 @@
 export default function EducationSection() {
   const education = [
     {
-      degree: "Your Degree Title",
-      institution: "Your University/School",
-      period: "Start Year - End Year",
-      description: "Add details about your degree, specialization, achievements, or relevant coursework.",
+      degree: "Computer Engineering",
+      institution: "TU Berlin",
+      period: "Current",
+      description: "Studying Computer Engineering with focus on software development, embedded systems, and computer architecture. Active in university projects including rocket development and processor design.",
       type: "education"
     },
     {
-      degree: "Another Degree (if applicable)",
-      institution: "Institution Name",
-      period: "Start Year - End Year",
-      description: "Describe your academic achievements, honors, or relevant projects.",
-      type: "education"
-    },
-    {
-      degree: "Your Certification",
-      institution: "Certifying Organization",
-      period: "Year Obtained",
-      description: "",
+      degree: "AWS DeepRacer Student Member",
+      institution: "Amazon Web Services",
+      period: "Current",
+      description: "Member of AWS DeepRacer student program, exploring machine learning and autonomous vehicle technology through hands-on racing competitions and workshops. Gaining experience in reinforcement learning, cloud computing, and AI model optimization.",
       type: "certification"
+    },
+    {
+      degree: "Egyptian Math Olympiad",
+      institution: "Egypt",
+      period: "2020",
+      description: "Honorable mention - where I discovered how much I enjoy hard problems and analytical thinking.",
+      type: "achievement"
     }
   ];
 
   const events = [
     {
-      name: "Your Conference/Event 1",
-      role: "Your Role (Speaker, Attendee, etc.)",
-      date: "Month Year",
-      description: "Describe what you did at this event, what you presented, or what you learned."
+      name: "☁️ AWS Summit Hamburg",
+      role: "Attendee",
+      date: "June 2025",
+      description: "I attended talks, workshops, and networking sessions with top industry minds. It wasn't just about cloud computing — it was about believing in where I can go, and who I can become. These kinds of events give me both inspiration and direction."
     },
     {
-      name: "Your Conference/Event 2", 
-      role: "Your Role",
-      date: "Month Year",
-      description: "Share details about your participation and any notable achievements or connections."
+      name: "🧠 AWS GameDay Workshop",
+      role: "Participant",
+      date: "TU Berlin",
+      description: "A team-based challenge in cloud problem-solving and system thinking. We had to think fast, collaborate smart, and use tools we barely knew — exactly the kind of growth I chase."
     },
     {
-      name: "Your Conference/Event 3",
-      role: "Your Role",
-      date: "Month Year",
-      description: "Highlight your contributions or key takeaways from this professional event."
+      name: "🐍 Python Guessing Game",
+      role: "Developer",
+      date: "Early Learning",
+      description: "Simple Python logic game I built early on to learn input/output. A foundational project that sparked my love for programming and problem-solving."
     }
   ];
 
@@ -66,7 +66,8 @@ export default function EducationSection() {
               {education.map((item, index) => (
                 <div key={index} className="flex items-start space-x-4">
                   <div className={`flex-shrink-0 w-4 h-4 rounded-full mt-2 ${
-                    item.type === 'certification' ? 'bg-portfolio-accent' : 'bg-portfolio-primary'
+                    item.type === 'certification' ? 'bg-portfolio-accent' : 
+                    item.type === 'achievement' ? 'bg-yellow-500' : 'bg-portfolio-primary'
                   }`}></div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-slate-900">{item.degree}</h4>

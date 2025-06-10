@@ -1,6 +1,6 @@
 export default function ContactSection() {
   const sendEmail = () => {
-    window.location.href = "mailto:jana.kamel@example.com";
+    window.location.href = "mailto:Jana-ahmed567@hotmail.com";
   };
 
   const downloadCV = () => {

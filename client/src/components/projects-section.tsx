@@ -2,30 +2,33 @@ export default function ProjectsSection() {
   const projects = [
     {
       id: 1,
-      title: "Your Project Title 1",
-      description: "Describe your first project here. What problem did it solve? What technologies did you use? What were the key features and achievements?",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      technologies: ["Technology 1", "Technology 2", "Technology 3"],
-      demoUrl: "https://your-project-demo.com",
-      codeUrl: "https://github.com/your-username/project-1"
+      title: "🪐 UniVerse – Web App for International Students",
+      description: "A personal project close to my heart. I designed and built UniVerse — a web-based dashboard to help international students stay organized, focused, and less alone. It includes smart reminders, notes, resources, and a clean user experience. Still in progress, but it already reflects everything I value: empathy, structure, and creativity.",
+      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+      technologies: ["Web Development", "Dashboard Design", "UX/UI"],
+      demoUrl: "#",
+      codeUrl: "#",
+      period: "May 2025 – Present"
     },
     {
       id: 2,
-      title: "Your Project Title 2",
-      description: "Describe your second project here. Focus on the challenges you overcame and the impact it had.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      technologies: ["Technology A", "Technology B", "Technology C"],
-      demoUrl: "https://your-project-demo2.com",
-      codeUrl: "https://github.com/your-username/project-2"
+      title: "🚀 BEARS Rocket Project – TU Berlin",
+      description: "I'm part of the software team, working on the embedded C++ code that runs on STM32 microcontrollers. My main focus is programming and integrating sensors for the rocket's flight system. This project pushed me beyond the classroom into real-world engineering — where every line of code has altitude attached to it.",
+      image: "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+      technologies: ["C++", "STM32", "Embedded Systems"],
+      demoUrl: "#",
+      codeUrl: "#",
+      period: "Since May 2025"
     },
     {
       id: 3,
-      title: "Your Project Title 3",
-      description: "Describe your third project here. Highlight what makes this project unique and showcase your skills.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      technologies: ["Tech X", "Tech Y", "Tech Z"],
-      demoUrl: "https://your-project-demo3.com",
-      codeUrl: "https://github.com/your-username/project-3"
+      title: "💻 MIPS Processor Design",
+      description: "Designed core control logic & datapath at TU Berlin. This project deepened my understanding of computer architecture and low-level programming, combining theoretical knowledge with practical implementation.",
+      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+      technologies: ["Computer Architecture", "Logic Design", "Hardware"],
+      demoUrl: "#",
+      codeUrl: "#",
+      period: "TU Berlin"
     }
   ];
 
@@ -64,6 +67,9 @@ export default function ProjectsSection() {
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-slate-900 mb-2">{project.title}</h3>
+                {project.period && (
+                  <p className="text-portfolio-accent text-sm font-medium mb-2">{project.period}</p>
+                )}
                 <p className="text-portfolio-secondary mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech) => (

@@ -35,11 +35,11 @@ export default function AboutSection() {
               </h4>
               <h4 className="font-semibold text-slate-900 mb-3 flex items-center">
                 <i className="fas fa-envelope text-portfolio-primary mr-2"></i>
-                jana.kamel@example.com
+                Jana-ahmed567@hotmail.com
               </h4>
               <h4 className="font-semibold text-slate-900 mb-3 flex items-center">
-                <i className="fas fa-graduation-cap text-portfolio-primary mr-2"></i>
-                TU Berlin Student
+                <i className="fas fa-phone text-portfolio-primary mr-2"></i>
+                +4015560713880
               </h4>
             </div>
             
