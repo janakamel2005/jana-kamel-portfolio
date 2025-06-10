@@ -6,15 +6,15 @@ export default function ContactSection() {
   const downloadCV = () => {
     const link = document.createElement('a');
     link.href = '/api/download-cv';
-    link.download = 'Your_Name_CV.pdf';
+    link.download = 'Jana_Kamel_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
 
-  const openLinkedIn = () => window.open("https://linkedin.com/in/your-profile", "_blank");
-  const openGitHub = () => window.open("https://github.com/your-username", "_blank");
-  const openTwitter = () => window.open("https://twitter.com/your-handle", "_blank");
+  const openLinkedIn = () => window.open("https://linkedin.com/in/jana-kamel", "_blank");
+  const openGitHub = () => window.open("https://github.com/jana-kamel", "_blank");
+  const openTwitter = () => window.open("https://twitter.com/jana_kamel", "_blank");
 
   return (
     <section id="contact" className="py-20 bg-portfolio-primary text-white">
